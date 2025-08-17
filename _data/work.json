@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Visiting Graduate Researcher",
+    "company": "Intelligent Robotics Group, NASA Ames Research Center",
+    "companyUrl": "https://www.nasa.gov/intelligent-systems-division/autonomous-systems-and-robotics/intelligent-robotics-group/",
+    "location": "Mountain View, CA",
+    "description": "As part of my NSTGRO Fellowship, I spent a summer at NASA ARC researching novel mobility solutions for crater exploration. I developed a method for tumbling tensegrity robot control, validating the framework in simulation and real-world experiments.",
+    "image": "/img/arc.jpg"
+  },
+  {
+    "title": "Student Researcher",
+    "company": "Silicon Synapse Lab, Northeastern University",
+    "companyUrl": "https://siliconsynapse.sites.northeastern.edu",
+    "location": "Boston, MA",
+    "description": "I have been researching in the Silicon Synapse Lab under Professor Alireza Ramezani for four years. As an undergraduate student, I was the electrical lead for COBRA (Crater Observing Bio-inspired Rolling Articulator), a modular snake-like robot that won 1st place in the 2022 NASA BIG Idea Challenge. COBRA has been featured by National Geographic, NASA, and WIRED, and has been published in top robotics conferences.",
+    "image": "/img/sslab.png",
+    "news": [
+      {
+        "text": "Northeastern University Slithers to the Top with Big Idea Alternative Rover Concept",
+        "url": "https://www.nasa.gov/feature/northeastern-university-slithers-to-the-top-with-big-idea-alternative-rover-concept"
+      },
+      {
+        "text": "'Snakes' on the moon? These helpers could soon join our lunar mission.",
+        "url": "https://www.nationalgeographic.com/science/article/lunar-robot-snakes-explore-the-moon-nasa"
+      },
+      {
+        "text": "Rovers Are So Yesterday. It's Time to Send a Snakebot to Space",
+        "url": "https://www.wired.com/story/rovers-are-so-yesterday-its-time-to-send-a-snakebot-to-space"
+      },
+      {
+        "text": "Northeastern students designed a snake robot that could help NASA find water on the moon",
+        "url": "https://news.northeastern.edu/2022/12/07/snake-robot-nasa-moon"
+      },
+      {
+        "text": "COBRA Receives 1st Place Prize in Undergraduate Division at ASME SMRDC 2023",
+        "url": "https://sites.google.com/site/asmemrc/design-competition-showcase/2023-finalists"
+      }
+    ]
+  },
+  {
+    "title": "Robotics Engineer",
+    "company": "RIVeR Lab, Northeastern University",
+    "companyUrl": "https://robot.neu.edu",
+    "location": "Boston, MA",
+    "description": "During my time in RIVeR, I led the data processing and system integration efforts on a DARPA-funded mixed reality project focused on perceptually-enabled task guidance (PTG). I developed a ROS2 architecture to efficiently collect and store data from the Microsoft HoloLens 2 headset. I also assisted in training object detection and action recognition models, and created an automated object annotation pipeline using OptiTrack motion capture.",
+    "image": "/img/river.jpg",
+    "news": [
+      {
+        "text": "Perceptually-enabled Task Guidance (PTG)",
+        "url": "https://www.darpa.mil/program/perceptually-enabled-task-guidance"
+      },
+      {
+        "text": "Lincoln Laboratory partners with DARPA to test augmented-reality assistance systems",
+        "url": "https://www.ll.mit.edu/news/lincoln-laboratory-partners-darpa-test-augmented-reality-assistance-systems"
+      }
+    ]
+  },
+  {
+    "title": "Plasma Engineer",
+    "company": "MAAT Energy",
+    "companyUrl": "https://www.maatenergy.com/",
+    "location": "Cambridge, MA",
+    "description": "In my six-month co-op at MAAT, I modeled electromagnetic fields in COMSOL to assist plasma applicator design. I also developed, fabricated, and tested 3 novel solutions to microwave plasma ignition that are scalable to high-power systems. At the end of my co-op, I consolidated my work in several reports submitted to the U.S. Department of Energy.",
+    "image": "/img/maat.jpg",
+    "news": [
+      {
+        "text": "Novel Plasma Catalysis Reformer of CO2 for Power to Jet Fuel and Energy Storage",
+        "url": "https://www.maatenergy.com/technology/co2-reforming"
+      }
+    ]
+  }
+]

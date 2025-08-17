@@ -1,0 +1,11 @@
+[
+  {
+    "title": "How strong a kick should be to topple northeastern's tumbling robot?",
+    "authors": "Adarsh Salagame, Neha Bhattachan, Andre Caetano, Ian McCarthy, Henry Noyes, Brandon Petersen, Alexander Qiu, Matthew Schroeter, Nolan Smithwick, Konrad Sroka, Jason Widjaja, Yash Bohra, Kaushik Venkatesh, Kruthika Gangaraju, Paul Ghanem, Ioannis Mandralis, Eric Sihite, Arash Kalantari, Alireza Ramezani",
+    "publication": "AIM",
+    "year": "2024",
+    "description": "Rough terrain locomotion has remained one of the most challenging mobility questions. In 2022, NASA's Innovative Advanced Concepts (NIAC) Program invited US academic institutions to participate NASA's Breakthrough, Innovative & Game-changing (BIG) Idea competition by proposing novel mobility systems that can negotiate extremely rough terrain, lunar bumpy craters. In this competition, Northeastern University won NASA's top Artemis Award award by proposing an articulated robot tumbler called COBRA (Crater Observing Bio-inspired Rolling Articulator). This report briefly explains the underlying principles that made COBRA successful in competing with other concepts ranging from cable-driven to multi-legged designs from six other participating US institutions.",
+    "image": "/img/aim-24.png",
+    "url": "https://arxiv.org/pdf/2311.14878"
+  }
+]

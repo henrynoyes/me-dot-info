@@ -1,0 +1,71 @@
+---
+layout: layouts/base.njk
+---
+<div class="hero-section">
+	<div class="hero-content">
+		<h1>Henry Noyes</h1>
+        <p>I am a graduate student studying robotics at Northeastern University, where I am entering the second year of my MS degree. My research focuses on perception and controls, primarily in the context of snake robots. I am advised by <a href="https://coe.northeastern.edu/people/ramezani-alireza/">Professor Alireza Ramezani</a> in the <a href="https://siliconsynapse.sites.northeastern.edu/">Silicon Synapse Lab</a>.</p>
+		<p>My studies are <a href="https://news.northeastern.edu/2024/05/07/nasa-research-fellow-henry-noyes/">supported by the NASA Space Technology Graduate Research Fellowship</a>. I have developed novel mobility platforms at NASA Ames Research Center, built computer vision frameworks for a DARPA-funded mixed reality project, and researched at a plasma energy startup.</p>
+		<p>I am passionate about space exploration and the science of machine intelligence.</p>
+    </div>
+	<div class="hero-image">
+        <img src="/img/profile-picture.png" alt="profile picture" width="400">
+        <div class="profile-links">
+            <a href="mailto:noyes.he@northeastern.edu">Email</a>
+            <a href="/henry-noyes-resume.pdf">Resume</a>
+            <a href="https://github.com/henrynoyes">GitHub</a>
+            <a href="https://linkedin.com/in/henry-noyes">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=Xtz6GmIAAAAJ&hl=en&oi=sra">Scholar</a>
+        </div>
+    </div>
+</div>
+
+<h2>Papers</h2>
+<table class="paper-table">
+    <tbody>
+        {%- for paper in papers -%}
+        <tr>
+            <td class="paper-image">
+                <img src="{{ paper.image }}" alt="paper thumbnail">
+            </td>
+            <td class="paper-content">
+                <div class="paper-title">
+                    <a href="{{ paper.url }}">{{ paper.title }}</a>
+                </div>
+                <div class="paper-authors">{{ paper.authors | boldName | safe }}</div>
+                <div class="paper-publication">{{ paper.publication }}, {{ paper.year }}</div>
+                <div class="paper-description">{{ paper.description }}</div>
+            </td>
+        </tr>
+        {%- endfor -%}
+    </tbody>
+</table>
+
+<h2>Work</h2>
+<table class="work-table">
+    <tbody>
+        {%- for job in work -%}
+        <tr>
+            <td class="work-image">
+                <img src="{{ job.image }}" alt="job thumbnail">
+            </td>
+            <td class="work-content">
+                <div class="work-title">
+                    {{ job.title }}, <a href="{{ job.companyUrl }}">{{ job.company }}</a>
+                </div>
+                <div class="work-location">{{ job.location }}</div>
+                <div class="work-description">{{ job.description }}</div>
+                {%- if job.news -%}
+                    <ul class="work-description">
+                        {%- for link in job.news -%}
+                        <li>
+                            <a href="{{ link.url }}">{{ link.text }}</a>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                {%- endif -%}
+            </td>
+        </tr>
+        {%- endfor -%}
+    </tbody>
+</table>
