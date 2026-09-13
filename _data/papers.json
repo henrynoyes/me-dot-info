@@ -1,10 +1,37 @@
 [
   {
+    "title": "Toward Autonomy on a Multi-modal Snake Robot",
+    "authors": "Henry Noyes",
+    "publication": "Northeastern University",
+    "year": "2026",
+    "description": "Snake robots are highly adaptable robotic platforms capable of operating in diverse and unstructured domains. However, their contact-rich locomotion and redundant morphology present challenges for robust control, limiting the autonomy level of existing platforms. This thesis addresses this gap by developing an autonomous architecture for COBRA (Crater Observing Bio-inspired Rolling Articulator), a multi-modal snake robot designed to explore lunar craters.",
+    "image": "/img/thesis.png",
+    "url": ""
+  },
+  {
+    "title": "Contact-aware Reinforcement Learning for Snake Robot Locomotion",
+    "authors": "Henry Noyes, Matthew Fernandez, Arthur Bouton, Michael Paton, Masahiro Ono",
+    "publication": "Workshop on Contact & Learning, IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "year": "2026",
+    "description": "We present contact-aware reinforcement learning onboard the Garden EELS robot. Custom force-sensing modules are implemented to provide exteroceptive measurements of contact interactions. On hardware, the contact-aware policy demonstrates a higher success rate in a step climbing task when compared to the policy without contact feedback.",
+    "image": "/img/climbing.png",
+    "url": ""
+  },
+  {
+    "title": "Autonomous Whole-body Loco-manipulation Using a Snake Robot",
+    "authors": "Adarsh Salagame, Henry Noyes, Haroon Hublikar, Alireza Ramezani",
+    "publication": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "year": "2026",
+    "description": "We present closed-loop, whole-body loco-manipulation with our snake robot COBRA. We validate the planner and controller on hardware to autonomously push an object to a goal location during sidewinding.",
+    "image": "/img/locoman.png",
+    "url": ""
+  },
+  {
     "title": "Crater Observing Bio-inspired Rolling Articulator (COBRA)",
     "authors": "Adarsh Salagame, Henry Noyes, Eric Sihite, Arash Kalantari, Alireza Ramezani",
     "publication": "Advanced Intelligent Systems",
     "year": "September 2025",
-    "description": "Crater Observing Bio-inspired Rolling Articulator (COBRA) is a modular, snake-inspired robot that addresses the mobility challenges of extraterrestrial exploration sites such as Shackleton Crater. Incorporating snake-like gaits and tumbling locomotion, COBRA navigates both uneven surfaces and steep crater walls. We present the robot's design, dynamic modeling, high-fidelity simulations, and field validation demonstrating its multi-modal capabilities.",
+    "description": "Crater Observing Bio-inspired Rolling Articulator (COBRA) is a modular, snake-inspired robot that addresses the mobility challenges of extraterrestrial exploration sites such as Shackleton Crater. We present the robot's design, dynamic modeling, high-fidelity simulations, and field validation demonstrating its multi-modal capabilities.",
     "image": "/img/aisj-25.png",
     "url": "https://doi.org/10.1002/aisy.202500352"
   },
@@ -13,7 +40,7 @@
     "authors": "Adarsh Salagame, Neha Bhattachan, Andre Caetano, Ian McCarthy, Henry Noyes, Brandon Petersen, Alexander Qiu, Matthew Schroeter, Nolan Smithwick, Konrad Sroka, Jason Widjaja, Yash Bohra, Kaushik Venkatesh, Kruthika Gangaraju, Paul Ghanem, Ioannis Mandralis, Eric Sihite, Arash Kalantari, Alireza Ramezani",
     "publication": "IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
     "year": "2024",
-    "description": "Rough terrain locomotion has remained one of the most challenging mobility questions. In 2022, NASA's Innovative Advanced Concepts (NIAC) Program invited US academic institutions to participate NASA's Breakthrough, Innovative & Game-changing (BIG) Idea competition by proposing novel mobility systems that can negotiate extremely rough terrain, lunar bumpy craters. In this competition, Northeastern University won NASA's top Artemis Award award by proposing an articulated robot tumbler called COBRA (Crater Observing Bio-inspired Rolling Articulator). This report briefly explains the underlying principles that made COBRA successful in competing with other concepts ranging from cable-driven to multi-legged designs from six other participating US institutions.",
+    "description": "In the 2022 NASA BIG Idea Challenge, Northeastern University won NASA's top Artemis Award award by proposing an articulated robot tumbler called COBRA (Crater Observing Bio-inspired Rolling Articulator). This report briefly explains the underlying principles that made COBRA successful in competing with other concepts ranging from cable-driven to multi-legged designs from six other participating US institutions.",
     "image": "/img/aim-24.png",
     "url": "https://arxiv.org/pdf/2311.14878"
   }

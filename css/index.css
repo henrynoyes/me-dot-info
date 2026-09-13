@@ -148,6 +148,14 @@ footer {
 	line-height: 1.4;
 }
 
+.news {
+	list-style: none;
+}
+
+.bullet-date {
+	font-weight: 500;
+	margin-right: 0.5rem;
+}
 
 @media (max-width: 600px) {
 	.hero-section {

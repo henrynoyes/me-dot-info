@@ -1,6 +1,14 @@
 [
   {
     "title": "Visiting Graduate Researcher",
+    "company": "Robotic Surface Mobility Group, NASA Jet Propulsion Laboratory",
+    "companyUrl": "https://www-robotics.jpl.nasa.gov/who-we-are/groups/358G/",
+    "location": "Pasadena, CA",
+    "description": "As part of my NSTGRO Fellowship, I spent a summer at NASA JPL exploring reinforcement learning for snake robot locomotion. I investigated the influence of contact observations in a step climbing task, successfully deploying trained policies onboard a force-sensing snake robot.",
+    "image": "/img/jpl.jpg"
+  },
+  {
+    "title": "Visiting Graduate Researcher",
     "company": "Intelligent Robotics Group, NASA Ames Research Center",
     "companyUrl": "https://www.nasa.gov/intelligent-systems-division/autonomous-systems-and-robotics/intelligent-robotics-group/",
     "location": "Mountain View, CA",
@@ -12,7 +20,7 @@
     "company": "Silicon Synapse Lab, Northeastern University",
     "companyUrl": "https://siliconsynapse.sites.northeastern.edu",
     "location": "Boston, MA",
-    "description": "I have been researching in the Silicon Synapse Lab under Professor Alireza Ramezani for four years. As an undergraduate student, I was the electrical lead for COBRA (Crater Observing Bio-inspired Rolling Articulator), a modular snake-like robot that won 1st place in the 2022 NASA BIG Idea Challenge. COBRA has been featured by National Geographic, NASA, and WIRED, and has been published in top robotics conferences.",
+    "description": "I spent over four years as a researcher in the Silicon Synapse Lab under Professor Alireza Ramezani. As an undergraduate student, I was the electrical lead for COBRA (Crater Observing Bio-inspired Rolling Articulator), a modular snake-like robot that won 1st place in the 2022 NASA BIG Idea Challenge. COBRA has been featured by National Geographic, NASA, and WIRED, and has been published in top robotics conferences.",
     "image": "/img/sslab.png",
     "news": [
       {
