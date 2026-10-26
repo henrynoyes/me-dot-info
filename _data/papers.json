@@ -6,7 +6,7 @@
     "year": "2026",
     "description": "Snake robots are highly adaptable robotic platforms capable of operating in diverse and unstructured domains. However, their contact-rich locomotion and redundant morphology present challenges for robust control, limiting the autonomy level of existing platforms. This thesis addresses this gap by developing an autonomous architecture for COBRA (Crater Observing Bio-inspired Rolling Articulator), a multi-modal snake robot designed to explore lunar craters.",
     "image": "/img/thesis.png",
-    "url": ""
+    "url": "https://www.researchgate.net/publication/413543094_Toward_Autonomy_on_a_Multi-modal_Snake_Robot"
   },
   {
     "title": "Contact-aware Reinforcement Learning for Snake Robot Locomotion",
@@ -15,7 +15,7 @@
     "year": "2026",
     "description": "We present contact-aware reinforcement learning onboard the Garden EELS robot. Custom force-sensing modules are implemented to provide exteroceptive measurements of contact interactions. On hardware, the contact-aware policy demonstrates a higher success rate in a step climbing task when compared to the policy without contact feedback.",
     "image": "/img/climbing.png",
-    "url": ""
+    "url": "https://openreview.net/pdf?id=5kH4S2iUTh"
   },
   {
     "title": "Autonomous Whole-body Loco-manipulation Using a Snake Robot",
