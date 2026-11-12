@@ -24,7 +24,7 @@
     "year": "2026",
     "description": "We present closed-loop, whole-body loco-manipulation with our snake robot COBRA. We validate the planner and controller on hardware to autonomously push an object to a goal location during sidewinding.",
     "image": "/img/locoman.png",
-    "url": ""
+    "url": "https://arxiv.org/pdf/2611.09777"
   },
   {
     "title": "Crater Observing Bio-inspired Rolling Articulator (COBRA)",
